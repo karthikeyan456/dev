@@ -1,0 +1,2 @@
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian/jenkins.io-2023.key
+sudo apt-get install ansible
