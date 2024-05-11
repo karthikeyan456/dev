@@ -1,0 +1,7 @@
+sudo apt install ansible
+ansbile --version
+ansible-inventory --list
+ansible-inventory -i inventory inventory --list
+ansible-playbook java_install.yml
+tree
+ansible-galaxy init singleurl
