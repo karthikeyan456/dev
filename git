@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "First Commit"
+git remote add origin https://github.com/karthikeyan456/devgit.git
+git remote set-url origin https://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@github.com/karthikeyan456/devgit.git
+git push origin master
+git config --global user.name karthikeyan456
+git config --global user.email askarthikeyan2003@gmail.com
+git config --list
